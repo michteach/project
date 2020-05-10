@@ -19,10 +19,18 @@ switch(income) {
 //   f++;
 // }
 
-let f = 40;
+// let f = 40;
 
-do {
-    console.log(f);
-    f++;
+// do {
+//     console.log(f);
+//     f++;
+// }
+// while(f < 44);
+
+// For
+for(let i = 0; i < 8; i++) {
+    if(i == 6) {
+        continue;
+    }
+    console.log(i);
 }
-while(f < 44);
