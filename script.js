@@ -13,8 +13,14 @@ switch(income) {
 }
 
 // Iterations
-let f = 40;
-while(f < 44) {
-  console.log(f);
-  f++;
-};
+// let f = 40;
+// while(f < 44) {
+//   console.log(f);
+//   f++;
+// }
+
+do {
+    console.log(f);
+    f++;
+}
+while(f < 44);
