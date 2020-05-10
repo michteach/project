@@ -11,3 +11,10 @@ switch(income) {
     break;
 
 }
+
+// Iterations
+let f = 40;
+while(f < 44) {
+  console.log(f);
+  f++;
+};
