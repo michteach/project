@@ -19,6 +19,8 @@ switch(income) {
 //   f++;
 // }
 
+let f = 40;
+
 do {
     console.log(f);
     f++;
