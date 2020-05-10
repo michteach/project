@@ -5,6 +5,7 @@ let income = 50;
 switch(income) {
     case income < 49:
     console.log('hi');
+    break;
     default:
     console.log('hi');
     break;
