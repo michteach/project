@@ -16,37 +16,45 @@
 
 'use strict';
 
-const numberOfFilms = +prompt("Сколько фильмов вы уже посмотрели?", "");
+// const numberOfFilms = +prompt("Сколько фильмов вы уже посмотрели?", "");
 
-let personalMovieDB= {
-    count: numberOfFilms,
-    movies: {},
-    actors: {},
-    genres: [],
-    privat: false
-};
+// let personalMovieDB= {
+//     count: numberOfFilms,
+//     movies: {},
+//     actors: {},
+//     genres: [],
+//     privat: false
+// };
 
-for (let i = 0; i < 2; i++) {
-    const a = prompt('Один из последних просмотренных фильмов?', ''),
-     b = +prompt('На сколько оцените его?', '');
+// for (let i = 0; i < 2; i++) {
+//     const a = prompt('Один из последних просмотренных фильмов?', ''),
+//      b = +prompt('На сколько оцените его?', '');
 
-     if (a != null && b !=null && a !='' && b != '' && a.length < 50) {
-        personalMovieDB.movies[a] = b;
-        console.log('done');
-     }   else {
-         console.log('error');
-         i--;
-     }
-}
+//      if (a != null && b !=null && a !='' && b != '' && a.length < 50) {
+//         personalMovieDB.movies[a] = b;
+//         console.log('done');
+//      }   else {
+//          console.log('error');
+//          i--;
+//      }
+// }
 
-if(personalMovieDB.count < 10) {
-    console.log('Просмотрено мало');
-} else if(personalMovieDB.count >= 10 && personalMovieDB.count < 30) {
-    console.log('Просмотрено средне');
-} else if(personalMovieDB.count >= 30) {
-    console.log('Киноман!');
-} else {
-    console.log('Ошибка!');
-}
+// if(personalMovieDB.count < 10) {
+//     console.log('Просмотрено мало');
+// } else if(personalMovieDB.count >= 10 && personalMovieDB.count < 30) {
+//     console.log('Просмотрено средне');
+// } else if(personalMovieDB.count >= 30) {
+//     console.log('Киноман!');
+// } else {
+//     console.log('Ошибка!');
+// }
  
-    console.log(personalMovieDB);
+//     console.log(personalMovieDB);
+
+function doIt(a,b) {
+return a + b;
+}
+
+console.log(doIt(3,4));
+
+const calc = (a, b) => { return a + b};
